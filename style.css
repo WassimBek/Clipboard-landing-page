@@ -370,7 +370,7 @@ body {
     .Logos {
         display: grid ;
         grid-template-columns: repeat(1,1fr);
-        margin-bottom: 100%;
+        margin-bottom: 120%;
     }
     .Logos > img {
         margin: 0 auto;
