@@ -1,25 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
-
 :root {
-    --strong-cyan: hsl(171, 66%, 44%);
-    --light-blue: hsl(233, 100%, 69%);
-    --dark-gry-blue: hsl(210, 10%, 33%);
-    --gry-blue: hsl(201, 11%, 66%);
-    --Font: 18px;
-    --font-family: 'Bai Jamjuree', sans-serif;
+    --strong-cyan : hsl(171, 66%, 44%) ;
+    --light-blue : hsl(233, 100%, 69%) ;
+    --dark-gry-blue : hsl(210, 10%, 33%) ;
+    --gry-blue : hsl(201, 11%, 66%) ;
+    --Font : 18px ;
+    --font-family : 'Bai Jamjuree', sans-serif ;
 }
-
 * {
     padding: 0;
     margin: 0;
-
 }
 
 body {
     font-family: var(--font-family);
     font-size: var(--Font);
 }
-
 .First {
     background-image: url(images/bg-header-desktop.png);
     background-position: center;
@@ -28,7 +24,6 @@ body {
     width: 100%;
     height: 575px;
 }
-
 .First > img {
     position: relative;
     transform: scale(0.7);
@@ -36,23 +31,20 @@ body {
     left: 45%;
     top: 22%;
 }
-
-.Text_First {
+.First > .Text_First {
     margin: 0 auto;
     width: 44%;
-    height: 100px;
+    height:100px;
     text-align: center;
     margin-top: 10%;
 }
-
-h1 {
+.First > .Text_First > h1 {
     font-size: 2.3rem;
     font-family: var(--font-family);
     color: var(--dark-gry-blue);
     font-weight: bold;
 }
-
-.Text_First>p {
+.First > .Text_First > p {
     font-size: 16px;
     font-weight: 400;
     font-family: var(--font-family);
@@ -61,98 +53,82 @@ h1 {
     opacity: 0.9;
     line-height: 1.5;
 }
-
 .btn {
     display: flex;
     justify-content: center;
     margin-top: 42px;
 }
-
-.ios,
-.mac {
+ .ios , .mac{
     height: 14px;
     width: 160px;
-    background-color: var(--strong-cyan);
-    box-shadow: 0px 1px 9px var(--strong-cyan);
+    background-color :var(--strong-cyan);
+    box-shadow: 0px 1px 9px var(--strong-cyan) ;
     padding: 15px;
     margin-right: 15px;
     border-radius: 30px;
     position: relative;
 }
-
-.ios>a,
-.mac>a {
+.ios > a ,  .mac > a {
     position: absolute;
-    top: 13px;
+    top: 13px ;
     right: 15%;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
     color: white;
 }
-
-.mac {
-    background-color: var(--light-blue);
+ .mac {
+    background-color : var(--light-blue) ;
     padding: 17px;
     height: 9.5px;
     width: 155px;
-    box-shadow: 0px 1px 9px var(--light-blue);
+    box-shadow: 0px 1px 9px var(--light-blue) ;
 }
-
 .keep_Track {
     margin: 0 auto;
-    margin-bottom: 2.5%;
+    margin-bottom:2.5% ;
     width: 48%;
 }
-
-.keep_Track>h2,
-.last>div>h2 {
+.keep_Track > h2 , .last > div > h2{
     text-align: center;
-    font-size: 1.8rem;
+    font-size : 1.8rem;
     font-family: var(--font-family);
     font-weight: 600;
     color: var(--dark-gry-blue);
 }
-
-.keep_Track>p {
+.keep_Track > p {
     margin-top: 10px;
     text-align: center;
     font-size: 17px;
-    color: var(--gry-blue);
+    color :var(--gry-blue);
     opacity: 0.9;
     line-height: 1.5;
 }
-
 .Second {
     display: flex;
     margin-bottom: 5%;
 }
-
-.Second>img {
+.Second > img {
     position: relative;
     transform: scale(0.9);
     left: -7%;
 }
-
-.SecBoxes {
+.Second > .SecBoxes {
     width: 32%;
     margin-left: -5%;
     margin-top: 4%;
 }
-
-.FBox {
+.Second > .SecBoxes > .FBox {
     padding: 25px;
-}
-
-.FBox>h2 {
+} 
+.Second > .SecBoxes > .FBox > h2{
     margin-bottom: 3%;
     font-family: var(--font-family);
     font-size: 20px;
     font-weight: 600;
     color: var(--dark-gry-blue);
 }
-
-.FBox>p {
+.Second > .SecBoxes > .FBox > p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: var(--Font);
@@ -160,27 +136,20 @@ h1 {
     opacity: 0.9;
 }
 
-.Access_Any,
-.workflow {
+.Access_Any , .workflow{
     margin: 0 auto;
     width: 50%;
-    margin-bottom: 3.5%;
+    margin-bottom:3.5%;
 }
-
-.Access_Any>h2,
-.workflow>h2 {
+.Access_Any > h2 , .workflow > h2 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size : 1.8rem;
     font-family: var(--font-family);
     font-weight: 600;
     color: var(--dark-gry-blue);
     margin-bottom: 13px;
 }
-
-.Access_Any>p,
-.workflow>p,
-.tools>p,
-.last>div>p {
+.Access_Any > p , .workflow > p , .tools > p , .last > div > p{
     text-align: center;
     line-height: 1.5;
     font-family: var(--font-family);
@@ -188,34 +157,29 @@ h1 {
     color: var(--gry-blue);
     opacity: 0.9;
 }
-
 .Img {
     position: relative;
     transform: scale(0.9);
     left: 15%;
 }
-
 .tool {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     width: 90%;
-    margin: 0 auto;
-    margin-bottom: 8%;
+    margin : 0 auto ;
+    margin-bottom:8% ; 
 }
-
-.tools {
+.tool > .tools {
     width: 90%;
     height: 200px;
     margin: 10px;
 }
-
-.tools>img {
+.tools > img {
     margin-left: 45%;
     margin-bottom: 5%;
     transform: scale(0.8);
 }
-
-.tools>h3 {
+.tools > h3 {
     text-align: center;
     font-family: var(--font-family);
     font-size: 1.3rem;
@@ -223,164 +187,193 @@ h1 {
     color: var(--dark-gry-blue);
     margin-bottom: 2.5%;
 }
-
-.tools>p {
-    font-size: 17px;
+.tools > p {
+    font-size:  17px;
     line-height: 1.6;
     text-align: center;
 }
-
 .Logos {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    margin-left: 10%;
+    display: flex;
     justify-content: space-evenly;
-    
+    height: 43px;
     margin-bottom: 11%;
 }
-
-.Logos>img {
+.Logos > img {
     transform: scale(1);
-    padding: 10px;
 }
-
 .last {
     display: flex;
     margin: 0 auto;
     width: 50%;
     margin-bottom: 0%;
 }
-
-.last>div>h2 {
+.last > div > h2 {
     margin-bottom: 15px;
 }
-
-.ios2,
-.mac2 {
+.ios2 , .mac2{
     height: 14px;
     width: 160px;
-    background-color: var(--strong-cyan);
-    box-shadow: 0px 1px 9px var(--strong-cyan);
+    background-color :var(--strong-cyan);
+    box-shadow: 0px 1px 9px var(--strong-cyan) ;
     padding: 15px;
     margin-right: 15px;
     border-radius: 30px;
     position: relative;
 }
-
-.ios2>a,
-.mac2>a {
+.ios2 > a ,  .mac2 > a {
     position: absolute;
-    top: 13px;
+    top: 13px ;
     right: 15%;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
     color: white;
 }
-
 .mac2 {
-    background-color: var(--light-blue);
+    background-color : var(--light-blue) ;
     padding: 17px;
     height: 9.5px;
     width: 155px;
-    box-shadow: 0px 1px 9px var(--light-blue);
+    box-shadow: 0px 1px 9px var(--light-blue) ;
 }
-
 .btn2 {
     display: flex;
     justify-content: center;
     margin-top: 42px;
 }
-
-footer {
+ footer {
     display: flex;
     width: 100%;
     height: 125px;
     margin-top: 8%;
-    background-color: hsla(206, 9%, 85%, 0.386);
-}
+    background-color: hsla(206, 9%, 85%, 0.386) ;
+ }
 
-.FAQ,
-.Privacy,
-.in {
+ footer > .FAQ , footer > .Privacy , footer > .in{
     margin-top: 1%;
     margin-left: 3%;
     width: 9%;
     height: 100px;
-}
-
-.Privacy {
+ }
+ footer > .Privacy {
     width: 12%;
     margin-top: 0.8%;
-}
-
-.FAQ>a,
-.Privacy>a {
+ }
+ footer > .FAQ > a ,  footer > .Privacy > a{
     display: block;
     color: var(--gry-blue);
     font-family: var(--font-family);
     font-weight: 500;
     text-decoration: none;
     padding: 10px;
-}
-
-.in {
+ }
+ footer > .in {
     text-decoration: none;
     margin-top: 1.5%;
     color: var(--gry-blue);
     font-family: var(--font-family);
-}
-
-footer>img {
+ }
+ footer > img {
     transform: scale(0.4);
     float: left;
     margin-left: 10%;
-}
-
-.IMM {
+ }
+ footer > .IMM {
     height: 50px;
-    display: flex;
+    display: flex ;
     margin-left: 19%;
 }
-
-.IMM>a {
+ footer > .IMM > a {
     position: relative;
     top: 100%;
     padding: 10px;
-
 }
+@media (max-width:481px) {
+    
+    .First > img {
+        left: 39.50%;
+        margin-bottom: 14%;
+    }
+    .First > .Text_First {
+        width: 90%;
+    }
+    .Text_First {
+        padding-bottom: 15%;
+    }
+    .btn {
+        display: grid ;
+        margin-left: 5%;
+        gap:  15px;
+    }
+    .ios , .mac{
+        transform: scale(1.1);
+    } 
 
-@media (max-width:762px) {
+   .keep_Track {
+    width: 55%;
+    margin-top: 10%;
+   }
+   .keep_Track > h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5%;
+   }
+   .keep_Track > p {
+    position: relative;
+    margin-left: -15%;
+    width: 130%;
+   }
+   .Second {
+    display: block;
+    margin-bottom: 20%;
+   }
+   .Second > img {
+    transform: scale(0.5);
+    margin-left: -25%;
+    margin-top: -15%;
+   }
+   .Second > .SecBoxes  {
+    width: 85%;
+    margin: 0 auto;
+   }
+   .SecBoxes > .FBox > h2 {
+    text-align: center;
+    transform: scale(1.4);
+    padding-bottom: 3%;
+   }
+   .SecBoxes > .FBox > p {
+    text-align: center;
+    line-height: 1.5;
+   }
+   .Access_Any{
+    width: 83%;
+    margin-bottom: -5%;
+   }
+   .workflow {
+    width: 80%;
+    margin-bottom: 15%;
+   }
+   .Access_Any > h2 , .workflow > h2{
+    font-size: 2rem;
+   }
+   .Access_Any > p , .workflow > p{
+    text-align: center;
+   }
+   .Img {
+    position: relative;
+    transform: scale(0.5);
+    left: -48%;
+   }
     .tool {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1,1fr);
         width: 80%;
     }
-
-    .tools>h3 {
-        font-size: 1.7rem;
-        margin-bottom: 10px;
-    }
-
-    .tools>img {
-        transform: scale(1);
-        margin-bottom: 30px;
-    }
-
-    .workflow {
-        margin-bottom: 15%;
-    }
-
-    .workflow>h2 {
-        font-size: 2rem;
-    }
     .Logos {
+        display: grid ;
         grid-template-columns: repeat(1,1fr);
-        position: relative;
-        left: 50%;
-        transform: translate(-30%);
+        margin-bottom: 100%;
     }
     .Logos > img {
-        padding-bottom: 20%;
-        transform: scale(1.2);
+        margin: 0 auto;
+        padding-bottom: 15%;
     }
 }
