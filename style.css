@@ -15,6 +15,8 @@
 body {
     font-family: var(--font-family);
     font-size: var(--Font);
+    overflow-x: hidden;
+    max-width: 100%;
 }
 .First {
     background-image: url(images/bg-header-desktop.png);
@@ -105,6 +107,7 @@ body {
     line-height: 1.5;
 }
 .Second {
+    width: 100%;
     display: flex;
     margin-bottom: 5%;
 }
@@ -293,22 +296,25 @@ body {
     .First > img {
         left: 39.50%;
         margin-bottom: 14%;
+        
     }
     .First > .Text_First {
         width: 90%;
-    }
-    .Text_First {
         padding-bottom: 15%;
     }
-    .btn {
+    .btn , .btn2{
         display: grid ;
         margin-left: 5%;
         gap:  15px;
+        
     }
-    .ios , .mac{
-        transform: scale(1.1);
+    .mac , .mac2 {
+        transform : scale(1.1) ;
     } 
 
+    .ios , .ios2 {
+        transform: scale(1.1) ;
+    }
    .keep_Track {
     width: 55%;
     margin-top: 10%;
@@ -375,5 +381,48 @@ body {
     .Logos > img {
         margin: 0 auto;
         padding-bottom: 15%;
+    }
+    .last {
+        width: 78%;
+    }
+    .last > div > h2 {
+        font-size: 2.2rem ;
+    }
+    .last > div > p {
+        font-size: 1rem;
+    }
+    footer {
+        height: 70vh;
+        position: relative;
+        display: block;
+    }
+    footer > img {
+        position: absolute;
+        top: 0%;
+        right: 36%;
+        transform: scale(0.5);
+    }
+    footer > .FAQ {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        padding-top: 25%;
+        margin-bottom: -3%;
+    }
+    footer > .Privacy{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .in {
+       padding-left: 35%;
+       font-weight: 600;
+    }
+    footer > .FAQ > a , footer > .Privacy > a ,footer > .in{
+        font-weight: 600;
+        color: var(--dark-gry-blue);
+    }
+    footer > .IMM {
+    margin-left: 35%;
     }
 }
